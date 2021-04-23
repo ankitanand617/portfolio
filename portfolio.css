@@ -1,0 +1,351 @@
+body{
+    /* font-family:  'Lato', sans-serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+
+    background-color: #424040;
+    
+}
+:root {
+    --blue: #3781c2;
+    --white: #ffffff; 
+    --pink:rgb(252 97 119);
+  }
+  .primary-color{
+      color: var(--blue);
+  }
+  .secondary-color{
+    color: var(--pink);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ #navbar{
+    background-color: #292727; 
+    /* border: 4px solid rgb(116, 20, 20); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100wh;
+}
+
+
+header{
+    width: 100%;
+    position:sticky;
+    top: 0%;
+}
+header::before{
+    left: 0px;
+    right: 0px;
+    
+
+}
+.nav{
+    /* background-color: rgb(151, 125, 125); */
+    /* border: 2px solid rgb(0, 0, 0); */
+    padding:1% 2%;
+    margin: 0.5% 2%;
+    width: fit-content;
+    border-radius: 10px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+a:hover{
+    color:rgb(179, 160, 156);
+    /* background-color:whitesmoke; */
+    border-radius: 10px;
+}
+
+.navbar div a:hover{
+    color:rgb(13, 13, 14);
+    background-color:whitesmoke;
+    border-radius: 10px;
+}
+
+#home1 img{
+    height: 70%;
+    width: 75%;
+}
+
+#nav1{
+    flex-shrink: 12;
+}
+
+
+.menu{
+    /* border: 2px solid rgb(62, 107, 31); */
+    /* background-color: #292727; */
+    width: 100wh;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+}
+
+.home{
+     /* border: 2px solid rgb(214, 179, 21);  */
+    /* background-color: rgb(27, 190, 95); */
+    width: 50%;
+    height: 90vh;
+    padding: 0px 1%;
+    /* margin: 10px 10px; */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#home2{
+    display: block;
+    line-height: 2.4em;
+    letter-spacing: .1px;
+    /* padding: 20px; */
+   
+}
+#hom1{
+    padding-top: 33%;
+    color: aliceblue;
+    font-size: 1.9em;
+    font-weight: 700;
+}
+#hom2{
+    color: rgb(255, 87, 51);
+    font-size: 2.2em;
+    font-weight: 700;
+}
+#hom3{
+    color: var(--blue);
+    font-size: 1.1em;
+    font-weight: 800;
+
+}
+
+/* about1 */
+.home li{
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align:start;
+    color: white;
+    line-height: 2rem;
+    padding:2% 8%;
+    font-family: 'Baloo Bhai 2', cursive;
+    list-style-type: none;
+    
+}
+/* 
+b{
+    color: rgb(252 97 119);
+}
+ */
+
+/*  
+
+.highlight:hover{
+    background-color: white;
+    color: black;
+}
+  */
+
+/* newhome */
+
+.newhome{
+    height: 50vh;
+    
+}
+/* box */
+.largebox{
+    height: 55%;
+    width: 25%;
+    margin: 2% 2%;
+    background-color:rgb(136, 134, 134);
+    border: 2px solid rgb(5, 5, 5);
+    border-radius: 7%;
+    color: aliceblue;
+    transition: all 0.8s ease-in-out;
+}
+
+.smallbox{
+    height: 30%;
+    width:100%;
+    background-color: rgb(17, 17, 17);
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    padding-top: 7%;
+    font-size: 1.05em;
+    font-weight: 200;
+
+}
+
+.skillicon{
+    height: 40%;
+    width: 50%;
+    margin-top:22%;
+}
+
+.largebox:hover{
+    background-color:#302d2d;
+}
+
+.highlight{
+    /* background-color: aqua; */
+    color: rgb(255, 87, 51);
+    height: 28vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 2.3em;
+    font-weight: 700; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+/* social */
+
+.social{
+       height: 30%;
+        width: 35%;
+       
+}
+
+#social4,#socail1{
+    height: 10vh;
+        width:60%;
+}
+/* footer */
+
+footer{
+    height: 17vh;
+    width: 100%;
+    /* background-color: rgb(136, 134, 134); */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color:whitesmoke;
+
+}
+
+/* media quries */
+
+
+
+@media (max-width:1200px) {
+    .home{
+       width: 100%;
+       height: 50vh;
+    }
+
+    .menu{
+        height: 100%;
+        /* width: 50wh; */
+     }
+
+
+     
+}
+
+
+@media (max-width:800px) {
+    .nav{
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 10px;
+        margin: 4px 4px;
+    }
+
+    .nav a{
+        font-size: 0.85em;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    #home1 img{
+        height: 60%;
+        width: 75%;
+    }
+    .home{
+        flex-wrap: wrap;
+   
+    }
+
+    #home2{
+        line-height: 1.7em;
+        height: 37vh;
+        
+    }
+
+    #hom1{
+        padding-top: 18%;
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+    #hom2{
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+    #hom3{
+        font-size: 0.7em;
+        font-weight: 800;
+    
+    }
+
+    .highlight{
+        font-size: 1.8em;
+        height: 15vh;
+    }
+
+    .home li{
+        font-size: 0.7em;
+        font-weight: 200;
+
+    }
+
+    #about1,#about2{
+        height: fit-content;
+    }
+
+    #skill1,#skill2{
+        height: 70vh;
+
+    }
+
+    .largebox{
+        height: 28vh;
+        width: 42%;
+    }
+    .smallbox{
+        height: 27%;
+        font-size: 1em;
+        font-weight: 500;
+        padding-top: 1vh;
+    }
+
+    #contact0{
+        font-size: 1.5em;
+    }
+
+    #contact1,#contact2{
+        display: flex;
+        flex-wrap: nowrap;
+        height: 20vh;
+    }
+    #contact1 img,#contact2 img{
+        height: 8vh;
+        width: 60%;
+    }
+
+}
+
+
